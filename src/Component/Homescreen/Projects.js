@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaReact, FaCode, FaProjectDiagram } from "react-icons/fa"; // Example icons from React Icons
 
 const Projects = () => {
     return (
@@ -12,13 +11,34 @@ const Projects = () => {
                     transition={{ duration: 1 }}
                     className="text-4xl font-bold text-center mb-12 text-blue-600"
                 >
-                    Our Projects
+                    Our Vision at Celeronix
                 </motion.h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
                     {[ 
-                        { title: "React Project", description: "Innovative project using React.js to enhance user experience.", icon: <FaReact className="text-4xl text-blue-600" />, link: "#" },
-                        { title: "Code Solutions", description: "Creative project focusing on clean and efficient code.", icon: <FaCode className="text-4xl text-green-600" />, link: "#" },
-                        { title: "Project Management", description: "A cutting-edge project management tool to streamline workflows.", icon: <FaProjectDiagram className="text-4xl text-purple-600" />, link: "#" }
+                        { 
+                            title: "Custom Web Solutions", 
+                            description: "Building responsive and user-centric web applications tailored to your business.",
+                            technologies: "React, Node.js, Express, MongoDB",
+                            methodology: "Agile Development",
+                            icon: "🖥️", 
+                            link: "#" 
+                        },
+                        { 
+                            title: "Mobile Application Development", 
+                            description: "Designing intuitive mobile apps that engage and retain users.",
+                            technologies: "React Native, Firebase, Expo",
+                            methodology: "Iterative Prototyping",
+                            icon: "📱", 
+                            link: "#" 
+                        },
+                        { 
+                            title: "UX/UI Design Excellence", 
+                            description: "Creating seamless user experiences with cutting-edge design principles.",
+                            technologies: "Figma, Adobe XD, Sketch",
+                            methodology: "User-Centered Design",
+                            icon: "🎨", 
+                            link: "#" 
+                        }
                     ].map((project, index) => (
                         <motion.div
                             key={index}
@@ -29,18 +49,18 @@ const Projects = () => {
                             className="relative group overflow-hidden bg-white rounded-xl shadow-xl hover:scale-105 transform transition duration-500"
                         >
                             <div className="p-6 text-center">
-                                <div className="mb-4">
-                                    {project.icon}
-                                </div>
+                                <div className="mb-4 text-4xl">{project.icon}</div>
                                 <h3 className="text-2xl font-semibold mb-4 text-blue-700">{project.title}</h3>
                                 <p className="text-gray-700 mb-4">{project.description}</p>
+                                <p className="text-gray-500 mb-4">Technologies Used: <span className="text-blue-600">{project.technologies}</span></p>
+                                <p className="text-gray-500 mb-4">Methodology: <span className="text-blue-600">{project.methodology}</span></p>
                                 <motion.a
                                     href={project.link}
                                     className="text-indigo-600 hover:underline"
                                     whileHover={{ scale: 1.1 }}
                                     transition={{ duration: 0.3 }}
                                 >
-                                    View Project
+                                    Learn More
                                 </motion.a>
                             </div>
                             <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-500"></div>
