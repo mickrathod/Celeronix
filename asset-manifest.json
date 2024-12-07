@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Celeronix/static/css/main.0dd2b96b.css",
-    "main.js": "/Celeronix/static/js/main.881958e8.js",
+    "main.css": "/Celeronix/static/css/main.dac9d6d1.css",
+    "main.js": "/Celeronix/static/js/main.842fda59.js",
     "static/js/488.42b4bd8a.chunk.js": "/Celeronix/static/js/488.42b4bd8a.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/Celeronix/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/Celeronix/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -9,12 +9,12 @@
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/Celeronix/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Celeronix/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/Celeronix/index.html",
-    "main.0dd2b96b.css.map": "/Celeronix/static/css/main.0dd2b96b.css.map",
-    "main.881958e8.js.map": "/Celeronix/static/js/main.881958e8.js.map",
+    "main.dac9d6d1.css.map": "/Celeronix/static/css/main.dac9d6d1.css.map",
+    "main.842fda59.js.map": "/Celeronix/static/js/main.842fda59.js.map",
     "488.42b4bd8a.chunk.js.map": "/Celeronix/static/js/488.42b4bd8a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0dd2b96b.css",
-    "static/js/main.881958e8.js"
+    "static/css/main.dac9d6d1.css",
+    "static/js/main.842fda59.js"
   ]
 }
