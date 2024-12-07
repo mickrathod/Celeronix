@@ -13,7 +13,7 @@ const Projects = () => {
                 >
                     Our Vision at Celeronix
                 </motion.h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                <div className="flex space-x-8 overflow-x-auto">
                     {[ 
                         { 
                             title: "Custom Web Solutions", 
@@ -38,6 +38,14 @@ const Projects = () => {
                             methodology: "User-Centered Design",
                             icon: "🎨", 
                             link: "#" 
+                        },
+                        { 
+                            title: "Social Media Marketing", 
+                            description: "Crafting targeted strategies to enhance your brand presence on social media and drive engagement.",
+                            technologies: "Facebook Ads, Instagram, LinkedIn, Google Ads",
+                            methodology: "Data-Driven Approach",
+                            icon: "📱📈", 
+                            link: "#" 
                         }
                     ].map((project, index) => (
                         <motion.div
@@ -46,22 +54,12 @@ const Projects = () => {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.8, delay: index * 0.3 }}
-                            className="relative group overflow-hidden bg-white rounded-xl shadow-xl hover:scale-105 transform transition duration-500"
+                            className="relative group overflow-hidden bg-white rounded-xl shadow-xl hover:scale-105 transform transition duration-500 w-64"
                         >
                             <div className="p-6 text-center">
                                 <div className="mb-4 text-4xl">{project.icon}</div>
                                 <h3 className="text-2xl font-semibold mb-4 text-blue-700">{project.title}</h3>
                                 <p className="text-gray-700 mb-4">{project.description}</p>
-                                <p className="text-gray-500 mb-4">Technologies Used: <span className="text-blue-600">{project.technologies}</span></p>
-                                <p className="text-gray-500 mb-4">Methodology: <span className="text-blue-600">{project.methodology}</span></p>
-                                <motion.a
-                                    href={project.link}
-                                    className="text-indigo-600 hover:underline"
-                                    whileHover={{ scale: 1.1 }}
-                                    transition={{ duration: 0.3 }}
-                                >
-                                    Learn More
-                                </motion.a>
                             </div>
                             <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-500"></div>
                         </motion.div>
