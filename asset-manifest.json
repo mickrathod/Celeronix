@@ -1,20 +1,27 @@
 {
   "files": {
-    "main.css": "/Celeronix/static/css/main.77a5613c.css",
-    "main.js": "/Celeronix/static/js/main.79d6753d.js",
+    "main.css": "/Celeronix/static/css/main.20617862.css",
+    "main.js": "/Celeronix/static/js/main.3e963ec0.js",
     "static/js/488.42b4bd8a.chunk.js": "/Celeronix/static/js/488.42b4bd8a.chunk.js",
+    "static/media/digitalmarketting.png": "/Celeronix/static/media/digitalmarketting.4e4cf74f378fe1f8e403.png",
+    "static/media/web.png": "/Celeronix/static/media/web.2710476b3b787d0ba0dc.png",
+    "static/media/uiux.png": "/Celeronix/static/media/uiux.8b36bce7bf231edd314a.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/Celeronix/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/Celeronix/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/Celeronix/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/Celeronix/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Celeronix/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/slick.svg": "/Celeronix/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Celeronix/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Celeronix/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Celeronix/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Celeronix/index.html",
-    "main.77a5613c.css.map": "/Celeronix/static/css/main.77a5613c.css.map",
-    "main.79d6753d.js.map": "/Celeronix/static/js/main.79d6753d.js.map",
+    "main.20617862.css.map": "/Celeronix/static/css/main.20617862.css.map",
+    "main.3e963ec0.js.map": "/Celeronix/static/js/main.3e963ec0.js.map",
     "488.42b4bd8a.chunk.js.map": "/Celeronix/static/js/488.42b4bd8a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77a5613c.css",
-    "static/js/main.79d6753d.js"
+    "static/css/main.20617862.css",
+    "static/js/main.3e963ec0.js"
   ]
 }
